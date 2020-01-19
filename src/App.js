@@ -4,7 +4,10 @@ import Map from './components/Map'
 
 function App(props) {
   return (
-    <Map/>
+    <>
+    <Map />
+    <div id="tooltip"></div>
+    </>
   );
 }
 
